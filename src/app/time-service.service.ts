@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class TimezoneService {
-  private baseUrl = 'https://time.runasp.net//api/time'; // Backend API base URL
+  private baseUrl = 'https://time.runasp.net/api/time'; // Backend API base URL
  
   constructor(private http: HttpClient) {}
  
