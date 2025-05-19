@@ -1,59 +1,60 @@
-# AngularDateTimeApp
+# TimeTaskAngular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+**TimeTaskAngular** is a web application designed to display both the local system time and the current times in various foreign time zones. This tool is particularly useful for individuals who work across different time zones and need a quick reference.
 
-## Development server
+## 🌐 Hosted Application
 
-To start a local development server, run:
+You can access the live application here: [https://timeapiangular.netlify.app/](https://timeapiangular.netlify.app/)
 
-```bash
+## 🚀 Features
+
+- **Local Time Display**: Automatically detects and displays your system's local time.
+- **Foreign Time Zones**: View current times in multiple international time zones.
+- **User-Friendly Interface**: Simple and intuitive design for easy navigation.
+
+## 🛠️ Technologies Used
+
+- **Frontend**: Angular
+- **Styling**: CSS
+- **Build Tool**: Angular CLI
+
+## 📂 Repository Structure
+
+TimeTaskAngular/
+├── src/
+│ ├── app/
+│ │ ├── components/
+│ │ └── app.module.ts
+│ ├── assets/
+│ ├── environments/
+│ ├── index.html
+│ └── main.ts
+├── angular.json
+├── package.json
+├── tsconfig.json
+└── README.md
+
+
+## 📥 Getting Started
+
+To run the application locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/mkgugan22/TimeTaskAngular.git
+
+**Navigate to the project directory:**
+
+bash
+
+cd TimeTaskAngular
+**Install dependencies:**
+
+bash
+npm install
+**Start the development server:**
+
+bash
+
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+The application will run in development mode. Open http://localhost:4200 to view it in your browser.
